@@ -49,6 +49,8 @@ And play continues until either player has used up all their bones or neither pl
 When playing doubles after the spinner, they are laid cross ways as shown below.  The pip count at this point is 12 (the 6, the 4, and 2 for the double 1).  The player could score points by playing the 6:4 on the western side for 10 points, the 4:2 on the eastern side for 10 points or the 1:5 on the southern side for 15 points.  If it had not already been played, the player could also have played the 5:3 on the northern side for 15 points.
 
 
+![Dominoes](https://github.com/Press-Play-On-Tape/Dominoes/blob/master/images/domino_game_08.png)
+
 ## Dominoes and a 128x64 pixel screen
 
 In a typical domino game, players add a domino tile (known as a 'bone') to an existing one by matching the number of 'pips'.  This results in a long string of dominoes joined end-to-end which would very quickly exceed the available real-estate of the Arduboy screen. This version tackles this issue by removing intermediate tiles and placing them face up in a pile at the right of screen.  This allows the player to see what bones he can play against and what bones have been previously played.  
