@@ -685,8 +685,10 @@ boolean isTheGameOver(GameMode gameMode) {
       
       drawMessageBox(F("Great~work"), 3);
       font4x6.setCursor(63,20);
+      font4x6.setTextColor(BLACK);
       font4x6.print(players[static_cast<uint8_t>(playersTurn)]->getString());
       font4x6.print(",\nyou~won~!");
+      font4x6.setTextColor(WHITE);
       arduboy.display();
     
     }
