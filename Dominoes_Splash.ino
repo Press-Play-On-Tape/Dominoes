@@ -20,7 +20,7 @@ void drawSplash_Loop() {
 
     if (justPressed > 0 && counter > 0) {
 
-      counter = 124;
+      counter = 20;
 
     }
 
@@ -39,7 +39,7 @@ void drawSplash_Loop() {
 
       if (arduboy.everyXFrames(2)) {
         counter++;
-        if (counter == 125) gameState = GameState::TitleScreen; 
+        if (counter == 21) gameState = GameState::TitleScreen; 
       }
 
     }

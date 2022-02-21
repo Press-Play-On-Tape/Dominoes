@@ -33,7 +33,7 @@
  */
 void drawTitle_Loop() {
 
-  uint8_t restart = 0;
+  // uint8_t restart = 0;
   uint8_t delayA = 0;
   uint8_t topArrowOffset = 0;
   uint8_t bottomArrowOffset = 0;
@@ -132,19 +132,19 @@ void drawTitle_Loop() {
 
     // Restart ?
 
-    if (arduboy.pressed(DOWN_BUTTON)) {
+    // if (arduboy.pressed(DOWN_BUTTON)) {
 
-      if (restart < UPLOAD_DELAY) {
-        restart++;
-      }
-      else {
-        arduboy.exitToBootloader();
-      }
+    //   if (restart < UPLOAD_DELAY) {
+    //     restart++;
+    //   }
+    //   else {
+    //     arduboy.exitToBootloader();
+    //   }
 
-    }
-    else {
-      restart = 0;
-    }
+    // }
+    // else {
+    //   restart = 0;
+    // }
 
   }
   
